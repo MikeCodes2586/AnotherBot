@@ -15,6 +15,13 @@ client.on('message', msg => {
 
   const channel = msg.channel
 
+  if (msg.content === 'Another Bot' || msg.mentions.has(client.user)) {
+    embed.setTitle('Help')
+    embed.addField('Prefix', `The prefix is \`${prefix}\``)
+    channel.send(embed)
+    embed.fields = []
+  }
+
   if (msg.content.startsWith(prefix)) {
     if (msg.content === prefix) {
       embed.setTitle('Error')
