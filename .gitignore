@@ -1,4 +1,9 @@
+
 info.json
-node_modules/
+
+#ignore node modules folder
+node_modules
+
 package-lock.json
+
 package.json
