@@ -1,0 +1,4 @@
+ignore info.json
+ignore node_modules/
+ignore package-lock.json
+ignore package.json
