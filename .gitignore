@@ -1,4 +1,4 @@
-ignore info.json
-ignore node_modules/
-ignore package-lock.json
-ignore package.json
+info.json
+node_modules/
+package-lock.json
+package.json
